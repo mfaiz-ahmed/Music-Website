@@ -74,6 +74,9 @@ font-size: 1.3rem;
 align-content: center;
 }    
 
+
+.button:hover{background-color: darkred}
+
 .music-box{max-width: 1200px;
     margin: 0 auto;}
 
@@ -83,3 +86,4 @@ align-content: center;
         position: relative;
         top: 400px;
       }    
+      
