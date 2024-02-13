@@ -11,7 +11,8 @@ padding: 20px 0;
 height:100px ;}
 
 
-body{font-family: Roboto;}
+body{font-family: Roboto;
+line-height: 1.4;}
 
 .tunes{font-size: 3.2rem;}
 
@@ -55,3 +56,30 @@ place-items: center;
 .box-2{display: flex;
     flex-direction: column;
     gap: 30px;}
+
+.bg-2{background-color: #281154;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;}
+
+
+.button{background-color: #dc0000;
+color: white;
+border: 1px solid #dc0000;
+padding: 5px 10px;
+font-size: 1.3rem;
+align-content: center;
+}    
+
+.music-box{max-width: 1200px;
+    margin: 0 auto;}
+
+
+.ipad-iphone-img {
+        margin-top: -400px;
+        position: relative;
+        top: 400px;
+      }    
