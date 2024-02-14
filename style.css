@@ -122,3 +122,5 @@ display: grid;
 place-items: center;
   text-align: center;}
 
+
+.divider{border-bottom: 2px solid gray;}  
