@@ -23,7 +23,8 @@ li{list-style: none;}
 
 .box{position: sticky;
     top: 0;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);}
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;}
 
 
 .list {
@@ -75,7 +76,7 @@ align-content: center;
 }    
 
 
-.button:hover{background-color: darkred}
+.button:hover{background-color: rgb(253, 45, 45)}
 
 .music-box{max-width: 1200px;
     margin: 0 auto;}
@@ -87,3 +88,37 @@ align-content: center;
         top: 400px;
       }    
       
+
+
+.about-music {       
+padding-top: 500px;
+display: grid;
+place-items: center;
+gap: 50px;
+text-align: center;
+margin-bottom: 50px;}      
+
+
+
+
+.button-2{background-color: #270082;
+  color: white;
+  border: 1px solid #270082;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  align-content: center;}
+  
+.button-2:hover{background-color: #4e10df;}  
+  
+
+
+
+.bg-img2{background-image: url(./Assets/video.png);
+background-position: center;
+background-size: cover;
+min-height: 100vh;
+display: grid;
+  color: white;
+place-items: center;
+  text-align: center;}
+
